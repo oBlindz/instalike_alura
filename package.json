@@ -1,0 +1,31 @@
+{
+  "name": "imersao_dev_backend_ts",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "dev": "dotenv --env-file=.env nodemon"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/multer": "^1.4.12",
+    "@types/node": "^22.9.1",
+    "dotenv-cli": "^7.4.3",
+    "nodemon": "^3.1.7",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.21.0",
+    "@types/express": "^5.0.0",
+    "@types/mongodb": "^4.0.6",
+    "axios": "^1.7.7",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "form-data": "^4.0.1",
+    "mongodb": "^6.10.0",
+    "multer": "^1.4.5-lts.1"
+  }
+}
